@@ -1,0 +1,46 @@
+EXTRACTOR DE INFORMACIÓN PARA PORTAL WEB
+
+Analiza la fuente proporcionada y extrae ÚNICAMENTE la siguiente información en formato JSON compacto:
+
+{
+  "empresa": {
+    "nombre": "",
+    "descripcion_corta": "",
+    "industria": "",
+    "ubicacion": ""
+  },
+  "servicios": [
+    {"nombre": "", "descripcion": ""}
+  ],
+  "colores_sugeridos": {
+    "primario": "",
+    "secundario": ""
+  },
+  "contenido_hero": {
+    "titulo": "",
+    "subtitulo": "",
+    "llamada_accion": ""
+  },
+  "secciones": [
+    {"tipo": "about|services|testimonials|contact", "titulo": "", "contenido": ""}
+  ],
+  "contacto": {
+    "telefono": "",
+    "email": "",
+    "direccion": "",
+    "redes_sociales": ""
+  },
+  "elementos_clave": [
+    "certificacion1", "logro1", "diferenciador1"
+  ]
+}
+
+REGLAS:
+- Solo información verificable del texto
+- Descripciones máximo 150 caracteres
+- Colores en formato hex (#000000)
+- Si no encuentras algo, deja ""
+- Máximo 5 servicios principales
+- Máximo 3 secciones adicionales
+
+RESPONDE SOLO CON EL JSON, SIN EXPLICACIONES.
