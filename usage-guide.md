@@ -6,8 +6,9 @@
 
 #### **Etapa 1: Extracción con NotebookLLM**
 1. Sube tu fuente de información (PDF, docs, web, etc.) a NotebookLLM
-2. Usa el prompt: `notebook-llm-extraction-prompt.txt`
-3. NotebookLLM te dará TODA la información extraída
+2. **Para Portales Web**: Usa `notebook-llm-extraction-prompt.txt`
+3. **Para Autoaprendizaje**: Usa `notebook-llm-course-discovery-prompt.txt`
+4. NotebookLLM te dará TODA la información extraída organizada
 
 #### **Etapa 2: Generación con Gemini**
 1. Copia la información extraída de NotebookLLM

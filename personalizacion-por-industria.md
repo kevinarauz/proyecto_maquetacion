@@ -39,6 +39,36 @@ Modifica `portal-specifications.json` según tu industria usando las guías sigu
 - Pricing con badges "Popular"
 - Testimonials con aumentos salariales
 
+### 💻 PORTAL DE AUTOAPRENDIZAJE TÉCNICO
+**Nuevo Tipo**: Portal personal para dominar tecnologías
+
+**Elementos Clave**:
+- Sección "¿Qué es?" con definición clara
+- Roadmap de aprendizaje visual
+- Comandos esenciales con ejemplos
+- Proyectos prácticos por nivel
+- Recursos y herramientas recomendadas
+- Cheat sheet descargable
+
+**Colores Recomendados**:
+```json
+"primary": "#2563eb",    // Azul tech
+"secondary": "#7c3aed",  // Púrpura coding
+"accent": "#10b981"      // Verde progreso
+```
+
+**Estructura Especial**:
+```json
+"sections": [
+  {"id": "fundamentos", "title": "¿Qué es y por qué usarlo?"},
+  {"id": "instalacion", "title": "Instalación y Configuración"},
+  {"id": "comandos", "title": "Comandos Esenciales"},
+  {"id": "proyectos", "title": "Proyectos Prácticos"},
+  {"id": "recursos", "title": "Recursos y Herramientas"},
+  {"id": "roadmap", "title": "Hoja de Ruta de Aprendizaje"}
+]
+```
+
 ### 🏢 CORPORATIVO/EMPRESA
 **Personalizar JSON Base**:
 

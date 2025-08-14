@@ -1,65 +1,76 @@
-DESCUBRIDOR DE CONTENIDO EDUCATIVO - NOTEBOOK LLM PARA ENSEÑANZA
+EXTRACTOR DE CONOCIMIENTO TÉCNICO - NOTEBOOK LLM PARA AUTOAPRENDIZAJE
 
-Analiza profundamente toda la fuente proporcionada y descubre TODO el contenido educativo y formativo disponible para crear un curso completo.
+Analiza profundamente toda la fuente y extrae TODO el conocimiento técnico para crear un portal de autoaprendizaje personal sobre cualquier herramienta, lenguaje o tecnología.
 
 EXTRAE Y ORGANIZA LA SIGUIENTE INFORMACIÓN:
 
-## CONTENIDO TÉCNICO
-- **Comandos**: Todos los comandos, sintaxis, parámetros y opciones
-- **Código**: Ejemplos, snippets, funciones, scripts completos
-- **Configuraciones**: Archivos de configuración, settings, variables
-- **APIs**: Endpoints, métodos, parámetros, respuestas
-- **Integraciones**: Conexiones con otras herramientas, servicios, plataformas
+## FUNDAMENTOS Y CONCEPTOS
+- **¿Qué es?**: Definición clara, propósito, para qué sirve
+- **¿Por qué usarlo?**: Ventajas, beneficios, casos de uso
+- **¿Cuándo usarlo?**: Escenarios ideales, cuándo NO usarlo
+- **Historia**: Origen, evolución, versiones importantes
+- **Ecosystem**: Herramientas relacionadas, competencia
 
-## CONCEPTOS Y TEORÍA
-- **Definiciones**: Términos técnicos, conceptos clave, glosario
-- **Principios**: Fundamentos, metodologías, mejores prácticas
-- **Arquitecturas**: Diagramas, estructuras, patrones de diseño
-- **Flujos de trabajo**: Procesos, procedimientos paso a paso
-- **Casos de uso**: Escenarios reales, aplicaciones prácticas
+## INSTALACIÓN Y CONFIGURACIÓN
+- **Prerrequisitos**: Software necesario, dependencias
+- **Instalación paso a paso**: Comandos, procesos, troubleshooting
+- **Configuración inicial**: Settings, variables, archivos config
+- **Verificación**: Cómo saber que funciona correctamente
+- **Problemas comunes**: Errores típicos y soluciones
 
-## ESTRUCTURA EDUCATIVA
-- **Prerrequisitos**: Conocimientos previos necesarios
-- **Objetivos de aprendizaje**: Qué se debe lograr
-- **Secuencia lógica**: Orden de enseñanza recomendado
-- **Niveles de dificultad**: Básico, intermedio, avanzado
-- **Hitos de progreso**: Checkpoints de evaluación
+## COMANDOS Y SINTAXIS ESENCIAL
+- **Comandos básicos**: Los que usas día a día
+- **Comandos avanzados**: Para casos específicos
+- **Sintaxis**: Estructura, parámetros, opciones
+- **Ejemplos prácticos**: Casos reales de uso
+- **Cheat sheet**: Referencia rápida
 
-## RECURSOS PRÁCTICOS
-- **Ejercicios**: Actividades, tareas, challenges
-- **Proyectos**: Ideas para proyectos prácticos
-- **Ejemplos reales**: Casos de estudio, implementaciones
-- **Troubleshooting**: Errores comunes, soluciones
-- **Tips y trucos**: Atajos, optimizaciones, secretos
+## FLUJOS DE TRABAJO
+- **Workflow típico**: Proceso estándar de trabajo
+- **Mejores prácticas**: Qué hacer y qué evitar
+- **Patrones comunes**: Estructuras que se repiten
+- **Optimizaciones**: Cómo hacerlo más eficiente
+- **Debugging**: Cómo encontrar y solucionar problemas
 
-## MATERIALES COMPLEMENTARIOS
-- **Referencias externas**: Links, documentación adicional
-- **Herramientas necesarias**: Software, dependencias, instalaciones
-- **Recursos multimedia**: Imágenes, diagramas, videos sugeridos
-- **Bibliografía**: Libros, artículos, papers relacionados
-- **Comunidad**: Foros, grupos, canales de soporte
+## PROYECTO PRÁCTICO
+- **Proyecto básico**: Primera implementación
+- **Proyecto intermedio**: Caso más complejo
+- **Proyecto avanzado**: Implementación profesional
+- **Paso a paso**: Instrucciones detalladas
+- **Código fuente**: Ejemplos completos
 
-## EVALUACIÓN Y CERTIFICACIÓN
-- **Criterios de evaluación**: Qué evaluar y cómo
-- **Exámenes**: Preguntas, quizzes, tests
-- **Proyectos finales**: Capstone projects
-- **Certificaciones**: Requisitos, procesos
-- **Portfolio**: Evidencias de aprendizaje
+## RECURSOS DE APRENDIZAJE
+- **Documentación oficial**: Links esenciales
+- **Tutoriales recomendados**: Guías de calidad
+- **Videos**: Canales, playlists útiles
+- **Libros**: Bibliografía recomendada
+- **Comunidad**: Foros, Discord, Stack Overflow
 
-## ACTUALIZACIONES Y TENDENCIAS
-- **Versiones**: Cambios, novedades, roadmap
-- **Tendencias**: Futuro del tema, evolución
-- **Alternativas**: Otras herramientas, enfoques
-- **Comparativas**: Ventajas, desventajas, diferencias
+## HERRAMIENTAS Y EXTENSIONES
+- **IDEs recomendados**: Editores, configuración
+- **Plugins útiles**: Extensiones que facilitan el trabajo
+- **Herramientas complementarias**: Debugging, testing, deploy
+- **Servicios online**: Plataformas, APIs, recursos web
 
-PRESENTA LA INFORMACIÓN DE FORMA ESTRUCTURADA Y PEDAGÓGICA:
+## NIVELES DE APRENDIZAJE
+- **Nivel 1 - Principiante**: Conceptos básicos, primeros pasos
+- **Nivel 2 - Intermedio**: Casos de uso comunes, proyectos
+- **Nivel 3 - Avanzado**: Optimizaciones, casos complejos
+- **Nivel 4 - Experto**: Arquitectura, mejores prácticas, enseñar a otros
 
-- Organiza por módulos/lecciones lógicas
-- Incluye progresión de dificultad
-- Proporciona contexto y relevancia
-- Sugiere actividades prácticas
-- Identifica puntos críticos de aprendizaje
-- Recomienda secuencia de enseñanza
-- Destaca conceptos fundamentales vs avanzados
+## HOJA DE RUTA DE APRENDIZAJE
+- **Semana 1**: Qué aprender primero
+- **Mes 1**: Objetivos del primer mes
+- **3 Meses**: Nivel intermedio
+- **6 Meses**: Nivel avanzado
+- **1 Año**: Maestría en el tema
 
-NO OMITAS DETALLES TÉCNICOS. El objetivo es tener material completo para crear un curso profesional y exhaustivo sobre el tema.
+PRESENTA LA INFORMACIÓN PARA AUTOAPRENDIZAJE:
+- Organiza de lo simple a lo complejo
+- Incluye ejemplos prácticos en cada sección
+- Proporciona rutas claras de progresión
+- Enfócate en aplicación práctica
+- Destaca lo esencial vs lo opcional
+- Sugiere tiempos de aprendizaje realistas
+
+El objetivo es crear un portal personal de referencia que te permita dominar cualquier tecnología de forma autónoma y práctica.

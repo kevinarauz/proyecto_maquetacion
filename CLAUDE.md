@@ -4,7 +4,7 @@ Este archivo proporciona orientación a Claude Code (claude.ai/code) cuando trab
 
 ## Resumen del Proyecto
 
-Este es un **Sistema Generador de Portales Web** - una herramienta impulsada por IA para crear portales web modernos y responsivos para diferentes industrias. El sistema utiliza especificaciones JSON comprensivas combinadas con prompts detallados para generar portales web completos con HTML5, CSS3 y JavaScript.
+Este es un **Sistema Generador de Portales Web** - una herramienta impulsada por IA para crear portales web modernos y responsivos para diferentes industrias, incluyendo portales especializados de **autoaprendizaje técnico**. El sistema utiliza especificaciones JSON comprensivas combinadas con prompts detallados para generar portales web completos con HTML5, CSS3 y JavaScript en un solo archivo.
 
 ## Componentes Principales
 
@@ -13,6 +13,11 @@ Este es un **Sistema Generador de Portales Web** - una herramienta impulsada por
 - `portal-generator-prompt.md` - Versión alternativa del prompt
 - `portal-specifications.json` - Plantilla base de configuración JSON
 - `portal-capacitacion-example.json` - Ejemplo para portales educativos/capacitación
+
+### Archivos para Flujo de Autoaprendizaje
+- `notebook-llm-extraction-prompt.txt` - Extrae información de fuentes para portales web
+- `notebook-llm-course-discovery-prompt.txt` - Extrae conocimiento técnico para autoaprendizaje
+- `json-structure-prompt.txt` - Convierte información extraída en HTML listo para usar
 
 ### Archivos de Documentación
 - `usage-guide.md` - Instrucciones completas de uso del sistema
@@ -42,9 +47,9 @@ El sistema utiliza un esquema JSON comprensivo que define:
 - **Secciones de Contenido**: Cards, testimonios, estadísticas, precios, formularios de contacto
 - **Footer**: Layout multi-columna con enlaces, información de contacto y redes sociales
 
-## Flujo de Trabajo Común
+## Flujos de Trabajo
 
-### 1. Proceso de Generación de Portal
+### 1. Flujo Tradicional - Portal Web de Negocio
 ```
 [Prompt Universal] + [JSON Personalizado] → Portal Web Completo
 ```
@@ -52,7 +57,35 @@ El sistema utiliza un esquema JSON comprensivo que define:
 1. Copiar el prompt universal (`universal-portal-prompt.md`)
 2. Personalizar las especificaciones JSON para la industria objetivo
 3. Combinar prompt + JSON para generar portal vía IA
-4. La salida incluye archivos HTML, CSS y JavaScript
+4. La salida incluye un archivo HTML único con CSS/JS integrado
+
+### 2. Flujo de Autoaprendizaje - Portal Técnico Personal
+```
+INVESTIGACIÓN → EXTRACCIÓN → GENERACIÓN → CAPACITACIÓN
+```
+
+**Paso 1: Descubrimiento de Fuentes**
+- Investigar y recopilar TODAS las fuentes sobre la tecnología objetivo (React, Python, Docker, etc.)
+- Documentación oficial, tutoriales, guías, ejemplos, casos de uso
+- PDFs, artículos, videos transcritos, repositorios, etc.
+
+**Paso 2: Extracción Completa con NotebookLLM**
+- Subir todas las fuentes encontradas a NotebookLLM
+- Usar `notebook-llm-course-discovery-prompt.txt` para extraer TODO el conocimiento técnico
+- NotebookLLM resume y organiza toda la información de múltiples documentos
+
+**Paso 3: Generación de Portal con Gemini**
+- Tomar la información completa extraída por NotebookLLM  
+- Usar `json-structure-prompt.txt` + información para generar HTML completo
+- Gemini crea un portal web personalizado con toda la información estructurada
+
+**Paso 4: Capacitación Personal**
+- **Portal resultante**: Referencia completa de la tecnología en formato web
+- **Contenido**: Fundamentos, instalación, comandos, proyectos, roadmap, recursos
+- **Uso**: Capacitarse directamente a través del portal generado
+- **Beneficio**: Manual personalizado y completo para dominar cualquier tecnología
+
+**Objetivo Final**: Crear portales web personales de autoaprendizaje para dominar cualquier herramienta, lenguaje o tecnología de forma autónoma y estructurada.
 
 ### 2. Personalización por Industria
 - Usar `personalizacion-por-industria.md` para modificaciones específicas por sector
@@ -76,6 +109,7 @@ El sistema utiliza un esquema JSON comprensivo que define:
 
 ### Adaptación por Industria
 El sistema soporta generación de portales para:
+- **Autoaprendizaje Técnico**: Roadmaps, comandos, proyectos prácticos, recursos, cheat sheets
 - **Educación/Capacitación**: Cursos, certificaciones, testimonios de estudiantes, niveles de precios
 - **Corporativo**: Servicios, casos de estudio, secciones de equipo, logos de clientes
 - **E-commerce**: Grids de productos, características de compra, reseñas, promociones
@@ -87,18 +121,19 @@ El sistema soporta generación de portales para:
 
 ## Estructura de Archivos (Salida Generada)
 ```
-portal/
-├── index.html              # Página principal con estructura semántica
-├── assets/
-│   ├── css/
-│   │   ├── main.css        # Estilos principales con variables CSS
-│   │   ├── components.css  # Estilos de componentes reutilizables
-│   │   └── responsive.css  # Media queries y diseño responsivo
-│   ├── js/
-│   │   ├── main.js         # Funcionalidad JavaScript principal
-│   │   └── components.js   # Componentes interactivos
-│   └── images/             # Imágenes y assets optimizados
+UN SOLO ARCHIVO:
+index.html                  # Página completa con CSS y JavaScript integrados
+├── <style>                 # CSS completo en el <head>
+├── <body>                  # HTML estructurado y semántico
+└── <script>                # JavaScript al final del <body>
 ```
+
+**Características del Archivo Único**:
+- CSS integrado en etiquetas `<style>`
+- JavaScript integrado en etiquetas `<script>`
+- Bootstrap 5 y Font Awesome desde CDN
+- Listo para visualizar directamente en navegador
+- Optimizado para prototipos rápidos
 
 ## Mejores Prácticas
 
