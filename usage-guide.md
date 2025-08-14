@@ -7,12 +7,12 @@
 #### **Etapa 1: Extracción con NotebookLLM**
 1. Sube tu fuente de información (PDF, docs, web, etc.) a NotebookLLM
 2. **Para Portales Web**: Usa `notebook-llm-extraction-prompt.txt`
-3. **Para Autoaprendizaje**: Usa `notebook-llm-course-discovery-prompt.txt`
+3. **Para Autoaprendizaje**: Usa `enseñanza/02-EXTRAER-CONOCIMIENTO-notebook-llm.txt`
 4. NotebookLLM te dará TODA la información extraída organizada
 
 #### **Etapa 2: Generación con Gemini**
 1. Copia la información extraída de NotebookLLM
-2. Usa el prompt: `json-structure-prompt.txt` (genera HTML directo)
+2. Usa el prompt: `enseñanza/03-GENERAR-PORTAL-gemini.txt` (genera HTML directo)
 3. O usa: `universal-portal-prompt.md` (sistema completo)
 4. Gemini te genera un archivo `index.html` completo listo para usar
 

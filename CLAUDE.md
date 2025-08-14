@@ -14,10 +14,11 @@ Este es un **Sistema Generador de Portales Web** - una herramienta impulsada por
 - `portal-specifications.json` - Plantilla base de configuración JSON
 - `portal-capacitacion-example.json` - Ejemplo para portales educativos/capacitación
 
-### Archivos para Flujo de Autoaprendizaje
-- `notebook-llm-extraction-prompt.txt` - Extrae información de fuentes para portales web
-- `notebook-llm-course-discovery-prompt.txt` - Extrae conocimiento técnico para autoaprendizaje
-- `json-structure-prompt.txt` - Convierte información extraída en HTML listo para usar
+### Carpeta `enseñanza/` - Sistema de Autoaprendizaje (Orden de Ejecución)
+- `01-DESCUBRIR-FUENTES-notebook-llm.txt` - **PASO 1**: Descubrir las mejores fuentes sobre la tecnología
+- `02-EXTRAER-CONOCIMIENTO-notebook-llm.txt` - **PASO 2**: Extraer conocimiento técnico para autoaprendizaje
+- `03-GENERAR-PORTAL-gemini.txt` - **PASO 3**: Convertir información extraída en HTML listo para usar
+- `PASOS-AUTOAPRENDIZAJE.md` - Guía completa de 4 pasos para crear portales de aprendizaje
 
 ### Archivos de Documentación
 - `usage-guide.md` - Instrucciones completas de uso del sistema
@@ -61,22 +62,27 @@ El sistema utiliza un esquema JSON comprensivo que define:
 
 ### 2. Flujo de Autoaprendizaje - Portal Técnico Personal
 ```
-INVESTIGACIÓN → EXTRACCIÓN → GENERACIÓN → CAPACITACIÓN
+DESCUBRIR → RECOPILAR → EXTRAER → GENERAR → CAPACITAR
 ```
 
-**Paso 1: Descubrimiento de Fuentes**
-- Investigar y recopilar TODAS las fuentes sobre la tecnología objetivo (React, Python, Docker, etc.)
-- Documentación oficial, tutoriales, guías, ejemplos, casos de uso
-- PDFs, artículos, videos transcritos, repositorios, etc.
+**Paso 1: Descubrir Fuentes con NotebookLLM**
+- Usar `enseñanza/01-DESCUBRIR-FUENTES-notebook-llm.txt` en NotebookLLM
+- Identificar las mejores fuentes oficiales, tutoriales, recursos de la tecnología objetivo
+- Obtener lista priorizada y organizada de fuentes esenciales
 
-**Paso 2: Extracción Completa con NotebookLLM**
-- Subir todas las fuentes encontradas a NotebookLLM
-- Usar `notebook-llm-course-discovery-prompt.txt` para extraer TODO el conocimiento técnico
-- NotebookLLM resume y organiza toda la información de múltiples documentos
+**Paso 1.5: Recopilar Fuentes**
+- Descargar/guardar todas las fuentes identificadas en el paso anterior
+- Documentación oficial, tutoriales, guías, ejemplos, PDFs, etc.
+- Preparar todo el material para procesamiento
 
-**Paso 3: Generación de Portal con Gemini**
+**Paso 2: Extraer Conocimiento con NotebookLLM**
+- Subir todas las fuentes recopiladas a NotebookLLM
+- Usar `enseñanza/02-EXTRAER-CONOCIMIENTO-notebook-llm.txt` para extraer TODO el conocimiento técnico
+- NotebookLLM organiza toda la información de múltiples documentos en formato estructurado
+
+**Paso 3: Generar Portal con Gemini**
 - Tomar la información completa extraída por NotebookLLM  
-- Usar `json-structure-prompt.txt` + información para generar HTML completo
+- Usar `enseñanza/03-GENERAR-PORTAL-gemini.txt` + información para generar HTML completo
 - Gemini crea un portal web personalizado con toda la información estructurada
 
 **Paso 4: Capacitación Personal**

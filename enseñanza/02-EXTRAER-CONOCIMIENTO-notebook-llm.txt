@@ -1,6 +1,11 @@
-EXTRACTOR DE CONOCIMIENTO TÉCNICO - NOTEBOOK LLM PARA AUTOAPRENDIZAJE
+PASO 2: EXTRAER CONOCIMIENTO TÉCNICO - NOTEBOOK LLM
 
-Analiza profundamente toda la fuente y extrae TODO el conocimiento técnico para crear un portal de autoaprendizaje personal sobre cualquier herramienta, lenguaje o tecnología.
+Una vez que hayas descubierto y recopilado todas las fuentes sobre la tecnología objetivo, usa este prompt para que NotebookLLM extraiga y organice todo el conocimiento.
+
+PROMPT PARA NOTEBOOK LLM:
+---
+
+Analiza profundamente todas las fuentes y extrae TODO el conocimiento técnico para crear un portal de autoaprendizaje personal sobre esta tecnología.
 
 EXTRAE Y ORGANIZA LA SIGUIENTE INFORMACIÓN:
 
@@ -73,4 +78,4 @@ PRESENTA LA INFORMACIÓN PARA AUTOAPRENDIZAJE:
 - Destaca lo esencial vs lo opcional
 - Sugiere tiempos de aprendizaje realistas
 
-El objetivo es crear un portal personal de referencia que te permita dominar cualquier tecnología de forma autónoma y práctica.
+El objetivo es crear un portal personal de referencia que me permita dominar esta tecnología de forma autónoma y práctica.

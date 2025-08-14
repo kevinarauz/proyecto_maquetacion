@@ -1,0 +1,62 @@
+PASO 1: DESCUBRIR FUENTES - NOTEBOOK LLM
+
+Antes de extraer conocimiento específico, usa este prompt para que NotebookLLM te ayude a descubrir y identificar las mejores fuentes sobre la tecnología que quieres aprender.
+
+PROMPT PARA NOTEBOOK LLM:
+---
+
+Necesito aprender sobre [NOMBRE_DE_LA_TECNOLOGÍA] y quiero crear un portal de autoaprendizaje completo.
+
+Ayúdame a identificar y recomendar las MEJORES FUENTES de información para esta tecnología:
+
+## FUENTES OFICIALES ESENCIALES
+- **Documentación oficial**: ¿Cuál es la URL principal?
+- **Getting Started**: ¿Dónde están las guías oficiales de inicio?
+- **API Reference**: ¿Dónde está la referencia técnica completa?
+- **Changelog/Releases**: ¿Dónde veo las actualizaciones y versiones?
+- **Repositorio oficial**: GitHub, GitLab u otros
+
+## TUTORIALES Y GUÍAS DE CALIDAD
+- **Tutoriales oficiales**: Los creados por los desarrolladores
+- **Guías reconocidas**: Sitios web de alta calidad
+- **Cursos recomendados**: Plataformas educativas populares
+- **Blogs técnicos**: Artículos de desarrolladores expertos
+- **Videos educativos**: Canales de YouTube reconocidos
+
+## RECURSOS PRÁCTICOS
+- **Ejemplos de código**: Repositorios con ejemplos prácticos
+- **Proyectos reales**: Implementaciones en producción
+- **Templates/Boilerplates**: Plantillas para empezar rápido
+- **Cheat sheets**: Resúmenes de comandos y sintaxis
+- **Interactive tutorials**: Plataformas hands-on
+
+## COMUNIDAD Y SOPORTE
+- **Foro oficial**: ¿Dónde está la comunidad principal?
+- **Stack Overflow**: Tags más relevantes
+- **Reddit**: Subreddits activos
+- **Discord/Slack**: Canales de la comunidad
+- **Twitter**: Cuentas oficiales y desarrolladores influyentes
+
+## RECURSOS AVANZADOS
+- **Papers/Artículos técnicos**: Documentos académicos o técnicos
+- **Conferences/Talks**: Presentaciones importantes
+- **Podcasts**: Episodios sobre esta tecnología
+- **Newsletters**: Boletines especializados
+- **Awesome lists**: Listas curadas de recursos
+
+## HERRAMIENTAS DE DESARROLLO
+- **IDEs recomendados**: Editores más populares
+- **Plugins/Extensiones**: Herramientas que facilitan el desarrollo
+- **Testing frameworks**: Para pruebas y testing
+- **Deployment tools**: Para poner en producción
+- **Monitoring**: Herramientas de monitoreo
+
+ORGANIZA LAS RECOMENDACIONES por:
+1. **Prioridad**: ¿Cuáles son absolutamente esenciales?
+2. **Nivel**: ¿Principiante, intermedio o avanzado?
+3. **Tipo**: ¿Documentación, tutorial, ejemplo, herramienta?
+4. **Actualización**: ¿Está actualizado a la versión más reciente?
+
+**RESULTADO ESPERADO**: Una lista organizada y priorizada de fuentes que debo recopilar para crear el mejor portal de autoaprendizaje posible sobre esta tecnología.
+
+**BONUS**: Si conoces recursos en español, inclúyelos también.
