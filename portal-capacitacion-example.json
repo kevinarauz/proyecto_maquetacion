@@ -1,0 +1,600 @@
+{
+  "portalConfig": {
+    "metadata": {
+      "title": "EduTech Academy - Portal de Capacitación Online",
+      "description": "Plataforma líder en educación digital con cursos profesionales, certificaciones y recursos de aprendizaje para impulsar tu carrera",
+      "language": "es",
+      "keywords": ["capacitación", "cursos online", "educación", "certificaciones", "aprendizaje", "desarrollo profesional", "e-learning"],
+      "author": "EduTech Academy"
+    },
+    "design": {
+      "typography": {
+        "primaryFont": "Poppins",
+        "secondaryFont": "Inter", 
+        "fallbackFonts": ["Arial", "sans-serif"],
+        "fontWeights": {
+          "light": 300,
+          "regular": 400,
+          "medium": 500,
+          "semibold": 600,
+          "bold": 700,
+          "extrabold": 800
+        },
+        "lineHeights": {
+          "tight": 1.2,
+          "normal": 1.5,
+          "relaxed": 1.75,
+          "loose": 2.0
+        },
+        "fontSizes": {
+          "mobile": {
+            "h1": "2.5rem",
+            "h2": "2rem",
+            "h3": "1.625rem",
+            "h4": "1.375rem",
+            "h5": "1.125rem",
+            "h6": "1rem",
+            "body": "1rem",
+            "small": "0.875rem",
+            "xs": "0.75rem"
+          },
+          "tablet": {
+            "h1": "3rem",
+            "h2": "2.375rem",
+            "h3": "1.875rem",
+            "h4": "1.5rem",
+            "h5": "1.1875rem",
+            "h6": "1rem",
+            "body": "1rem",
+            "small": "0.875rem",
+            "xs": "0.75rem"
+          },
+          "desktop": {
+            "h1": "3.75rem",
+            "h2": "2.75rem",
+            "h3": "2.25rem",
+            "h4": "1.75rem",
+            "h5": "1.375rem",
+            "h6": "1.125rem",
+            "body": "1.125rem",
+            "small": "1rem",
+            "xs": "0.875rem"
+          }
+        }
+      },
+      "colors": {
+        "primary": "#6366f1",
+        "secondary": "#8b5cf6", 
+        "accent": "#06b6d4",
+        "background": "#ffffff",
+        "surface": "#f8fafc",
+        "text": {
+          "primary": "#1e293b",
+          "secondary": "#64748b",
+          "muted": "#94a3b8"
+        },
+        "borders": "#e2e8f0",
+        "success": "#22c55e",
+        "warning": "#f59e0b",
+        "error": "#ef4444",
+        "education": {
+          "primary": "#6366f1",
+          "secondary": "#a855f7",
+          "accent": "#06b6d4",
+          "highlight": "#fbbf24"
+        }
+      },
+      "spacing": {
+        "xs": "0.5rem",
+        "sm": "1rem",
+        "md": "1.5rem",
+        "lg": "2rem",
+        "xl": "3rem",
+        "2xl": "4rem",
+        "3xl": "6rem"
+      },
+      "breakpoints": {
+        "xs": "0px",
+        "sm": "576px",
+        "md": "768px",
+        "lg": "992px",
+        "xl": "1200px",
+        "xxl": "1400px"
+      },
+      "buttons": {
+        "borderRadius": "0.75rem",
+        "fontWeight": 600,
+        "transition": "all 0.3s ease",
+        "sizes": {
+          "sm": {
+            "padding": "0.5rem 1rem",
+            "fontSize": "0.875rem",
+            "height": "2.5rem"
+          },
+          "md": {
+            "padding": "0.75rem 1.5rem",
+            "fontSize": "1rem",
+            "height": "3rem"
+          },
+          "lg": {
+            "padding": "1rem 2rem",
+            "fontSize": "1.125rem",
+            "height": "3.5rem"
+          }
+        },
+        "variants": {
+          "primary": {
+            "backgroundColor": "#6366f1",
+            "color": "#ffffff",
+            "border": "2px solid #6366f1",
+            "hover": {
+              "backgroundColor": "#5b21b6",
+              "transform": "translateY(-2px)",
+              "boxShadow": "0 8px 25px rgba(99, 102, 241, 0.4)"
+            }
+          },
+          "secondary": {
+            "backgroundColor": "transparent",
+            "color": "#6366f1",
+            "border": "2px solid #6366f1",
+            "hover": {
+              "backgroundColor": "#6366f1",
+              "color": "#ffffff",
+              "transform": "translateY(-2px)"
+            }
+          },
+          "accent": {
+            "backgroundColor": "#06b6d4",
+            "color": "#ffffff",
+            "border": "2px solid #06b6d4",
+            "hover": {
+              "backgroundColor": "#0891b2",
+              "transform": "translateY(-2px)"
+            }
+          }
+        }
+      }
+    },
+    "layout": {
+      "mobileFirst": true,
+      "containers": {
+        "xs": "100%",
+        "sm": "540px",
+        "md": "720px",
+        "lg": "960px",
+        "xl": "1140px",
+        "xxl": "1320px"
+      },
+      "responsive": {
+        "mobile": {
+          "headerHeight": "70px",
+          "padding": "1rem",
+          "fontSize": "16px",
+          "gridColumns": 1
+        },
+        "tablet": {
+          "headerHeight": "80px",
+          "padding": "1.5rem",
+          "fontSize": "16px",
+          "gridColumns": 2
+        },
+        "desktop": {
+          "headerHeight": "90px",
+          "padding": "2rem",
+          "fontSize": "18px",
+          "gridColumns": 3
+        }
+      }
+    },
+    "components": {
+      "header": {
+        "enabled": true,
+        "sticky": true,
+        "logo": {
+          "text": "EduTech Academy",
+          "image": null,
+          "position": "left"
+        },
+        "navigation": {
+          "style": "horizontal",
+          "items": [
+            { "label": "Inicio", "url": "#home", "active": true },
+            { "label": "Cursos", "url": "#courses" },
+            { "label": "Certificaciones", "url": "#certifications" },
+            { "label": "Recursos", "url": "#resources" },
+            { "label": "Nosotros", "url": "#about" },
+            { "label": "Contacto", "url": "#contact" }
+          ]
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "Comenzar Ahora",
+          "url": "#courses",
+          "style": "primary"
+        }
+      },
+      "hero": {
+        "enabled": true,
+        "title": "Transforma tu Futuro con Educación de Calidad",
+        "subtitle": "Accede a más de 500 cursos especializados y certifícate con los mejores instructores",
+        "description": "Únete a más de 50,000 estudiantes que ya han impulsado sus carreras con nuestros programas de capacitación online. Aprende a tu ritmo, obtén certificaciones reconocidas y destaca en tu industria.",
+        "backgroundType": "gradient",
+        "backgroundImage": null,
+        "ctaButtons": [
+          {
+            "text": "Explorar Cursos",
+            "url": "#courses",
+            "style": "primary"
+          },
+          {
+            "text": "Ver Demo Gratuita",
+            "url": "#demo",
+            "style": "secondary"
+          }
+        ],
+        "features": [
+          "✓ Más de 500 cursos disponibles",
+          "✓ Certificaciones reconocidas",
+          "✓ Instructores expertos",
+          "✓ Aprendizaje flexible 24/7"
+        ]
+      },
+      "sections": [
+        {
+          "id": "courses",
+          "title": "Nuestros Cursos Populares",
+          "subtitle": "Programas diseñados para acelerar tu crecimiento profesional",
+          "type": "cards",
+          "layout": "grid",
+          "columns": 3,
+          "items": [
+            {
+              "title": "Desarrollo Web Full Stack",
+              "description": "Domina HTML, CSS, JavaScript, React, Node.js y bases de datos. De principiante a desarrollador profesional.",
+              "icon": "fas fa-code",
+              "price": "$299",
+              "duration": "12 semanas",
+              "level": "Principiante-Intermedio",
+              "students": "2,847 estudiantes",
+              "rating": "4.8",
+              "link": "#",
+              "badge": "Más Popular"
+            },
+            {
+              "title": "Marketing Digital Avanzado",
+              "description": "SEO, SEM, Social Media, Analytics y estrategias de crecimiento para impulsar tu negocio online.",
+              "icon": "fas fa-chart-line",
+              "price": "$249",
+              "duration": "10 semanas",
+              "level": "Intermedio",
+              "students": "1,923 estudiantes",
+              "rating": "4.9",
+              "link": "#"
+            },
+            {
+              "title": "Ciencia de Datos con Python",
+              "description": "Análisis de datos, Machine Learning, visualización y estadísticas aplicadas con herramientas profesionales.",
+              "icon": "fas fa-brain",
+              "price": "$349",
+              "duration": "16 semanas",
+              "level": "Intermedio-Avanzado",
+              "students": "1,654 estudiantes",
+              "rating": "4.7",
+              "link": "#"
+            },
+            {
+              "title": "Diseño UX/UI Profesional",
+              "description": "Principios de diseño, prototipado, investigación UX y herramientas como Figma y Adobe XD.",
+              "icon": "fas fa-palette",
+              "price": "$279",
+              "duration": "14 semanas",
+              "level": "Principiante-Intermedio",
+              "students": "2,156 estudiantes",
+              "rating": "4.8",
+              "link": "#"
+            },
+            {
+              "title": "Gestión de Proyectos Ágil",
+              "description": "Scrum, Kanban, metodologías ágiles y herramientas de gestión para liderar equipos exitosos.",
+              "icon": "fas fa-tasks",
+              "price": "$199",
+              "duration": "8 semanas",
+              "level": "Intermedio",
+              "students": "1,789 estudiantes",
+              "rating": "4.6",
+              "link": "#"
+            },
+            {
+              "title": "Ciberseguridad Empresarial",
+              "description": "Protección de sistemas, ethical hacking, auditorías de seguridad y gestión de riesgos.",
+              "icon": "fas fa-shield-alt",
+              "price": "$399",
+              "duration": "20 semanas",
+              "level": "Avanzado",
+              "students": "987 estudiantes",
+              "rating": "4.9",
+              "link": "#",
+              "badge": "Certificación Pro"
+            }
+          ]
+        },
+        {
+          "id": "certifications",
+          "title": "Certificaciones Reconocidas",
+          "subtitle": "Valida tus conocimientos con certificados avalados por la industria",
+          "type": "features",
+          "layout": "two-column",
+          "content": {
+            "image": null,
+            "features": [
+              {
+                "icon": "fas fa-certificate",
+                "title": "Certificados Oficiales",
+                "description": "Obtén certificaciones reconocidas por empresas líderes en tecnología"
+              },
+              {
+                "icon": "fas fa-award",
+                "title": "Validación de Competencias",
+                "description": "Demuestra tus habilidades con evaluaciones prácticas y proyectos reales"
+              },
+              {
+                "icon": "fas fa-briefcase",
+                "title": "Mejores Oportunidades",
+                "description": "Accede a ofertas laborales exclusivas de nuestros partners empresariales"
+              },
+              {
+                "icon": "fas fa-users",
+                "title": "Networking Profesional",
+                "description": "Conecta con profesionales de tu área y expande tu red de contactos"
+              }
+            ]
+          }
+        },
+        {
+          "id": "stats",
+          "title": "Nuestros Logros",
+          "type": "stats",
+          "layout": "four-column",
+          "items": [
+            {
+              "number": "50,000+",
+              "label": "Estudiantes Graduados",
+              "icon": "fas fa-graduation-cap"
+            },
+            {
+              "number": "500+",
+              "label": "Cursos Disponibles",
+              "icon": "fas fa-book-open"
+            },
+            {
+              "number": "98%",
+              "label": "Tasa de Satisfacción",
+              "icon": "fas fa-thumbs-up"
+            },
+            {
+              "number": "150+",
+              "label": "Instructores Expertos",
+              "icon": "fas fa-chalkboard-teacher"
+            }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "title": "Historias de Éxito",
+          "subtitle": "Conoce cómo nuestros estudiantes han transformado sus carreras",
+          "type": "testimonials",
+          "layout": "carousel",
+          "items": [
+            {
+              "name": "Ana María González",
+              "company": "Senior Developer en TechCorp",
+              "course": "Desarrollo Web Full Stack",
+              "text": "Gracias a EduTech Academy pude hacer la transición de marketing a desarrollo web. Los instructores son excepcionales y el contenido muy actualizado. Ahora trabajo en mi empresa soñada.",
+              "rating": 5,
+              "image": null,
+              "salary_increase": "+150%"
+            },
+            {
+              "name": "Carlos Rodríguez",
+              "company": "Digital Marketing Manager en StartupXYZ",
+              "course": "Marketing Digital Avanzado",
+              "text": "El curso superó mis expectativas. Aprendí estrategias que aplico diariamente en mi trabajo. Mi equipo ha aumentado las conversiones en un 300% desde que implementé lo aprendido.",
+              "rating": 5,
+              "image": null,
+              "salary_increase": "+85%"
+            },
+            {
+              "name": "Laura Fernández",
+              "company": "Data Scientist en FinTech Solutions",
+              "course": "Ciencia de Datos con Python",
+              "text": "Como ingeniera civil, necesitaba reinventarme. El programa de Data Science me dio todas las herramientas para conseguir mi trabajo actual. La metodología es excelente.",
+              "rating": 5,
+              "image": null,
+              "salary_increase": "+120%"
+            }
+          ]
+        },
+        {
+          "id": "pricing",
+          "title": "Planes de Acceso",
+          "subtitle": "Elige el plan que mejor se adapte a tus objetivos",
+          "type": "pricing",
+          "layout": "three-column",
+          "items": [
+            {
+              "name": "Básico",
+              "price": "$29",
+              "period": "/mes",
+              "description": "Perfecto para comenzar tu aprendizaje",
+              "features": [
+                "Acceso a 50+ cursos básicos",
+                "Videos en HD",
+                "Certificados de participación",
+                "Foro de comunidad",
+                "Soporte por email"
+              ],
+              "buttonText": "Comenzar Gratis",
+              "buttonStyle": "secondary",
+              "popular": false
+            },
+            {
+              "name": "Profesional",
+              "price": "$79",
+              "period": "/mes",
+              "description": "Para profesionales que buscan especializarse",
+              "features": [
+                "Acceso completo a 500+ cursos",
+                "Proyectos prácticos",
+                "Certificaciones oficiales",
+                "Mentorías 1:1",
+                "Acceso a job board",
+                "Descargas offline"
+              ],
+              "buttonText": "Empezar Ahora",
+              "buttonStyle": "primary",
+              "popular": true
+            },
+            {
+              "name": "Enterprise",
+              "price": "$199",
+              "period": "/mes",
+              "description": "Solución completa para equipos y empresas",
+              "features": [
+                "Todo lo de Profesional",
+                "Cursos personalizados",
+                "Dashboard de administración",
+                "Reportes de progreso",
+                "Soporte prioritario 24/7",
+                "Integración SSO"
+              ],
+              "buttonText": "Contactar Ventas",
+              "buttonStyle": "accent",
+              "popular": false
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "title": "¿Listo para Comenzar?",
+          "subtitle": "Habla con nuestro equipo y descubre el plan perfecto para ti",
+          "type": "contact",
+          "layout": "form-info",
+          "form": {
+            "fields": [
+              { "name": "name", "label": "Nombre Completo", "type": "text", "required": true },
+              { "name": "email", "label": "Email Profesional", "type": "email", "required": true },
+              { "name": "phone", "label": "Teléfono", "type": "tel", "required": false },
+              { "name": "company", "label": "Empresa/Organización", "type": "text", "required": false },
+              { "name": "interest", "label": "Área de Interés", "type": "select", "required": true, "options": ["Desarrollo Web", "Marketing Digital", "Data Science", "UX/UI Design", "Project Management", "Cybersecurity", "Otro"] },
+              { "name": "message", "label": "Cuéntanos sobre tus objetivos", "type": "textarea", "required": true }
+            ],
+            "submitText": "Solicitar Información"
+          },
+          "contactInfo": {
+            "address": "Av. Tecnológica 456, Piso 8, Ciudad Digital",
+            "phone": "+1 (555) 123-EDUC",
+            "email": "info@edutechacademy.com",
+            "hours": "Lun-Vie 8:00-20:00, Sáb 9:00-14:00",
+            "response": "Te responderemos en menos de 2 horas"
+          }
+        }
+      ],
+      "footer": {
+        "enabled": true,
+        "style": "multi-column",
+        "columns": [
+          {
+            "title": "EduTech Academy",
+            "type": "brand",
+            "content": {
+              "description": "Transformamos vidas a través de la educación digital de calidad. Más de 50,000 profesionales han confiado en nosotros para impulsar sus carreras."
+            }
+          },
+          {
+            "title": "Cursos Populares",
+            "type": "links",
+            "content": {
+              "links": [
+                { "label": "Desarrollo Web", "url": "#" },
+                { "label": "Marketing Digital", "url": "#" },
+                { "label": "Data Science", "url": "#" },
+                { "label": "UX/UI Design", "url": "#" },
+                { "label": "Project Management", "url": "#" }
+              ]
+            }
+          },
+          {
+            "title": "Recursos",
+            "type": "links",
+            "content": {
+              "links": [
+                { "label": "Blog Educativo", "url": "#" },
+                { "label": "Webinars Gratuitos", "url": "#" },
+                { "label": "Guías de Carrera", "url": "#" },
+                { "label": "Centro de Ayuda", "url": "#" },
+                { "label": "Comunidad", "url": "#" }
+              ]
+            }
+          },
+          {
+            "title": "Contacto",
+            "type": "contact",
+            "content": {
+              "address": "Av. Tecnológica 456, Piso 8",
+              "phone": "+1 (555) 123-EDUC",
+              "email": "info@edutechacademy.com",
+              "hours": "Lun-Vie 8:00-20:00"
+            }
+          },
+          {
+            "title": "Síguenos",
+            "type": "social",
+            "content": {
+              "socialMedia": [
+                { "platform": "linkedin", "url": "#", "icon": "fab fa-linkedin" },
+                { "platform": "youtube", "url": "#", "icon": "fab fa-youtube" },
+                { "platform": "twitter", "url": "#", "icon": "fab fa-twitter" },
+                { "platform": "instagram", "url": "#", "icon": "fab fa-instagram" },
+                { "platform": "facebook", "url": "#", "icon": "fab fa-facebook" }
+              ]
+            }
+          }
+        ],
+        "copyright": "© 2024 EduTech Academy. Todos los derechos reservados.",
+        "legal": [
+          { "label": "Términos de Uso", "url": "#" },
+          { "label": "Política de Privacidad", "url": "#" },
+          { "label": "Cookies", "url": "#" }
+        ]
+      }
+    },
+    "features": {
+      "responsive": true,
+      "darkMode": false,
+      "animations": true,
+      "lazyLoading": true,
+      "seo": true,
+      "analytics": true,
+      "accessibility": true,
+      "pwa": true,
+      "multiLanguage": false
+    },
+    "performance": {
+      "optimizeImages": true,
+      "minifyCSS": true,
+      "minifyJS": true,
+      "criticalCSS": true,
+      "prefetch": true,
+      "caching": true
+    },
+    "integrations": {
+      "fontAwesome": true,
+      "googleFonts": true,
+      "bootstrap": true,
+      "jquery": false,
+      "analytics": "gtag",
+      "chatbot": true,
+      "paymentGateway": "stripe"
+    }
+  }
+}

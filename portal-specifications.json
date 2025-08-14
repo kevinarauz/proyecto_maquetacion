@@ -1,0 +1,459 @@
+{
+  "portalConfig": {
+    "metadata": {
+      "title": "Portal Corporativo",
+      "description": "Portal web moderno y responsivo para empresas",
+      "language": "es",
+      "keywords": ["portal", "empresa", "servicios", "contacto"],
+      "author": "Generador de Portales AI"
+    },
+    "design": {
+      "typography": {
+        "primaryFont": "Inter",
+        "secondaryFont": "Roboto",
+        "fallbackFonts": ["Arial", "sans-serif"],
+        "fontWeights": {
+          "light": 300,
+          "regular": 400,
+          "medium": 500,
+          "semibold": 600,
+          "bold": 700,
+          "extrabold": 800
+        },
+        "lineHeights": {
+          "tight": 1.2,
+          "normal": 1.5,
+          "relaxed": 1.75,
+          "loose": 2.0
+        },
+        "fontSizes": {
+          "mobile": {
+            "h1": "2.25rem",
+            "h2": "1.875rem",
+            "h3": "1.5rem",
+            "h4": "1.25rem",
+            "h5": "1.125rem",
+            "h6": "1rem",
+            "body": "1rem",
+            "small": "0.875rem",
+            "xs": "0.75rem"
+          },
+          "tablet": {
+            "h1": "2.75rem",
+            "h2": "2.25rem",
+            "h3": "1.75rem",
+            "h4": "1.375rem",
+            "h5": "1.1875rem",
+            "h6": "1rem",
+            "body": "1rem",
+            "small": "0.875rem",
+            "xs": "0.75rem"
+          },
+          "desktop": {
+            "h1": "3.5rem",
+            "h2": "2.5rem",
+            "h3": "2rem",
+            "h4": "1.5rem",
+            "h5": "1.25rem",
+            "h6": "1rem",
+            "body": "1rem",
+            "small": "0.875rem",
+            "xs": "0.75rem"
+          }
+        }
+      },
+      "colors": {
+        "primary": "#2563eb",
+        "secondary": "#64748b",
+        "accent": "#f59e0b",
+        "background": "#ffffff",
+        "surface": "#f8fafc",
+        "text": {
+          "primary": "#1e293b",
+          "secondary": "#64748b",
+          "muted": "#94a3b8"
+        },
+        "borders": "#e2e8f0",
+        "success": "#10b981",
+        "warning": "#f59e0b",
+        "error": "#ef4444"
+      },
+      "spacing": {
+        "xs": "0.5rem",
+        "sm": "1rem",
+        "md": "1.5rem",
+        "lg": "2rem",
+        "xl": "3rem",
+        "2xl": "4rem"
+      },
+      "breakpoints": {
+        "xs": "0px",
+        "sm": "576px",
+        "md": "768px",
+        "lg": "992px",
+        "xl": "1200px",
+        "xxl": "1400px"
+      },
+      "buttons": {
+        "borderRadius": "0.5rem",
+        "fontWeight": 500,
+        "transition": "all 0.2s ease-in-out",
+        "sizes": {
+          "xs": {
+            "padding": "0.25rem 0.5rem",
+            "fontSize": "0.75rem",
+            "height": "2rem"
+          },
+          "sm": {
+            "padding": "0.375rem 0.75rem",
+            "fontSize": "0.875rem",
+            "height": "2.25rem"
+          },
+          "md": {
+            "padding": "0.5rem 1rem",
+            "fontSize": "1rem",
+            "height": "2.5rem"
+          },
+          "lg": {
+            "padding": "0.75rem 1.5rem",
+            "fontSize": "1.125rem",
+            "height": "3rem"
+          },
+          "xl": {
+            "padding": "1rem 2rem",
+            "fontSize": "1.25rem",
+            "height": "3.5rem"
+          }
+        },
+        "variants": {
+          "primary": {
+            "backgroundColor": "#2563eb",
+            "color": "#ffffff",
+            "border": "1px solid #2563eb",
+            "hover": {
+              "backgroundColor": "#1d4ed8",
+              "borderColor": "#1d4ed8",
+              "transform": "translateY(-1px)"
+            },
+            "active": {
+              "backgroundColor": "#1e40af",
+              "transform": "translateY(0)"
+            },
+            "disabled": {
+              "backgroundColor": "#9ca3af",
+              "borderColor": "#9ca3af",
+              "cursor": "not-allowed"
+            }
+          },
+          "secondary": {
+            "backgroundColor": "transparent",
+            "color": "#2563eb",
+            "border": "1px solid #2563eb",
+            "hover": {
+              "backgroundColor": "#2563eb",
+              "color": "#ffffff",
+              "transform": "translateY(-1px)"
+            },
+            "active": {
+              "backgroundColor": "#1e40af",
+              "borderColor": "#1e40af"
+            },
+            "disabled": {
+              "borderColor": "#9ca3af",
+              "color": "#9ca3af"
+            }
+          },
+          "outline": {
+            "backgroundColor": "transparent",
+            "color": "#64748b",
+            "border": "1px solid #e2e8f0",
+            "hover": {
+              "backgroundColor": "#f8fafc",
+              "borderColor": "#cbd5e1",
+              "transform": "translateY(-1px)"
+            },
+            "active": {
+              "backgroundColor": "#f1f5f9"
+            }
+          },
+          "ghost": {
+            "backgroundColor": "transparent",
+            "color": "#64748b",
+            "border": "1px solid transparent",
+            "hover": {
+              "backgroundColor": "#f8fafc",
+              "color": "#475569"
+            },
+            "active": {
+              "backgroundColor": "#f1f5f9"
+            }
+          },
+          "success": {
+            "backgroundColor": "#10b981",
+            "color": "#ffffff",
+            "border": "1px solid #10b981",
+            "hover": {
+              "backgroundColor": "#059669",
+              "borderColor": "#059669"
+            }
+          },
+          "warning": {
+            "backgroundColor": "#f59e0b",
+            "color": "#ffffff",
+            "border": "1px solid #f59e0b",
+            "hover": {
+              "backgroundColor": "#d97706",
+              "borderColor": "#d97706"
+            }
+          },
+          "danger": {
+            "backgroundColor": "#ef4444",
+            "color": "#ffffff",
+            "border": "1px solid #ef4444",
+            "hover": {
+              "backgroundColor": "#dc2626",
+              "borderColor": "#dc2626"
+            }
+          }
+        }
+      }
+    },
+    "layout": {
+      "mobileFirst": true,
+      "containers": {
+        "xs": "100%",
+        "sm": "540px",
+        "md": "720px",
+        "lg": "960px",
+        "xl": "1140px",
+        "xxl": "1320px"
+      },
+      "responsive": {
+        "mobile": {
+          "headerHeight": "60px",
+          "padding": "1rem",
+          "fontSize": "14px",
+          "gridColumns": 1
+        },
+        "tablet": {
+          "headerHeight": "70px",
+          "padding": "1.5rem",
+          "fontSize": "16px",
+          "gridColumns": 2
+        },
+        "desktop": {
+          "headerHeight": "80px",
+          "padding": "2rem",
+          "fontSize": "16px",
+          "gridColumns": 3
+        }
+      },
+      "footerMinHeight": "200px",
+      "sidebarWidth": "300px"
+    },
+    "components": {
+      "header": {
+        "enabled": true,
+        "sticky": true,
+        "logo": {
+          "text": "Portal Web",
+          "image": null,
+          "position": "left"
+        },
+        "navigation": {
+          "style": "horizontal",
+          "items": [
+            { "label": "Inicio", "url": "#home", "active": true },
+            { "label": "Servicios", "url": "#services" },
+            { "label": "Acerca de", "url": "#about" },
+            { "label": "Contacto", "url": "#contact" }
+          ]
+        },
+        "ctaButton": {
+          "enabled": true,
+          "text": "Contactar",
+          "url": "#contact",
+          "style": "primary"
+        }
+      },
+      "hero": {
+        "enabled": true,
+        "title": "Bienvenido a Nuestro Portal",
+        "subtitle": "Soluciones innovadoras para tu empresa",
+        "description": "Descubre cómo podemos ayudarte a alcanzar tus objetivos con nuestros servicios profesionales.",
+        "backgroundType": "gradient",
+        "backgroundImage": null,
+        "ctaButtons": [
+          {
+            "text": "Conocer Más",
+            "url": "#services",
+            "style": "primary"
+          },
+          {
+            "text": "Ver Demo",
+            "url": "#demo",
+            "style": "secondary"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "id": "services",
+          "title": "Nuestros Servicios",
+          "type": "cards",
+          "layout": "grid",
+          "columns": 3,
+          "items": [
+            {
+              "title": "Desarrollo Web",
+              "description": "Creamos sitios web modernos y responsivos",
+              "icon": "code",
+              "link": "#"
+            },
+            {
+              "title": "Diseño UX/UI",
+              "description": "Interfaces intuitivas y atractivas",
+              "icon": "design",
+              "link": "#"
+            },
+            {
+              "title": "Consultoría",
+              "description": "Asesoramiento especializado para tu proyecto",
+              "icon": "consulting",
+              "link": "#"
+            }
+          ]
+        },
+        {
+          "id": "about",
+          "title": "Acerca de Nosotros",
+          "type": "content",
+          "layout": "two-column",
+          "content": {
+            "text": "Somos una empresa dedicada a crear soluciones digitales innovadoras. Con años de experiencia en el mercado, nos especializamos en desarrollo web, diseño UX/UI y consultoría tecnológica.",
+            "image": null,
+            "features": [
+              "Más de 5 años de experiencia",
+              "Equipo de profesionales certificados",
+              "Proyectos exitosos entregados",
+              "Soporte técnico 24/7"
+            ]
+          }
+        },
+        {
+          "id": "testimonials",
+          "title": "Lo que dicen nuestros clientes",
+          "type": "testimonials",
+          "layout": "carousel",
+          "items": [
+            {
+              "name": "Juan Pérez",
+              "company": "Empresa ABC",
+              "text": "Excelente servicio y resultados sobresalientes. Recomendado al 100%.",
+              "rating": 5,
+              "image": null
+            },
+            {
+              "name": "María García",
+              "company": "Startup XYZ",
+              "text": "El equipo superó nuestras expectativas. Muy profesionales.",
+              "rating": 5,
+              "image": null
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "title": "Contáctanos",
+          "type": "contact",
+          "layout": "form-info",
+          "form": {
+            "fields": [
+              { "name": "name", "label": "Nombre", "type": "text", "required": true },
+              { "name": "email", "label": "Email", "type": "email", "required": true },
+              { "name": "phone", "label": "Teléfono", "type": "tel", "required": false },
+              { "name": "message", "label": "Mensaje", "type": "textarea", "required": true }
+            ],
+            "submitText": "Enviar Mensaje"
+          },
+          "contactInfo": {
+            "address": "Calle Principal 123, Ciudad",
+            "phone": "+1 (555) 123-4567",
+            "email": "info@portal.com",
+            "hours": "Lun-Vie 9:00-18:00"
+          }
+        }
+      ],
+      "footer": {
+        "enabled": true,
+        "style": "multi-column",
+        "columns": [
+          {
+            "title": "Portal Web",
+            "type": "brand",
+            "content": {
+              "description": "Soluciones digitales innovadoras para tu empresa."
+            }
+          },
+          {
+            "title": "Enlaces Rápidos",
+            "type": "links",
+            "content": {
+              "links": [
+                { "label": "Inicio", "url": "#home" },
+                { "label": "Servicios", "url": "#services" },
+                { "label": "Acerca de", "url": "#about" },
+                { "label": "Contacto", "url": "#contact" }
+              ]
+            }
+          },
+          {
+            "title": "Contacto",
+            "type": "contact",
+            "content": {
+              "address": "Calle Principal 123, Ciudad",
+              "phone": "+1 (555) 123-4567",
+              "email": "info@portal.com"
+            }
+          },
+          {
+            "title": "Síguenos",
+            "type": "social",
+            "content": {
+              "socialMedia": [
+                { "platform": "facebook", "url": "#", "icon": "fab fa-facebook" },
+                { "platform": "twitter", "url": "#", "icon": "fab fa-twitter" },
+                { "platform": "linkedin", "url": "#", "icon": "fab fa-linkedin" },
+                { "platform": "instagram", "url": "#", "icon": "fab fa-instagram" }
+              ]
+            }
+          }
+        ],
+        "copyright": "© 2024 Portal Web. Todos los derechos reservados."
+      }
+    },
+    "features": {
+      "responsive": true,
+      "darkMode": false,
+      "animations": true,
+      "lazyLoading": true,
+      "seo": true,
+      "analytics": false,
+      "accessibility": true,
+      "pwa": false
+    },
+    "performance": {
+      "optimizeImages": true,
+      "minifyCSS": true,
+      "minifyJS": true,
+      "criticalCSS": true,
+      "prefetch": true
+    },
+    "integrations": {
+      "fontAwesome": true,
+      "googleFonts": true,
+      "bootstrap": true,
+      "jquery": false
+    }
+  }
+}
