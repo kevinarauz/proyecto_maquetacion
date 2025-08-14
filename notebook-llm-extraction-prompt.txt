@@ -1,46 +1,23 @@
-EXTRACTOR DE INFORMACIÓN PARA PORTAL WEB
+EXTRACCIÓN COMPLETA DE INFORMACIÓN PARA PORTAL WEB - NOTEBOOK LLM CAPACITACIONES PARA APRENDIZAJE
 
-Analiza la fuente proporcionada y extrae ÚNICAMENTE la siguiente información en formato JSON compacto:
+Extrae y presenta TODA la información relevante de la fuente para crear un portal web completo. 
 
-{
-  "empresa": {
-    "nombre": "",
-    "descripcion_corta": "",
-    "industria": "",
-    "ubicacion": ""
-  },
-  "servicios": [
-    {"nombre": "", "descripcion": ""}
-  ],
-  "colores_sugeridos": {
-    "primario": "",
-    "secundario": ""
-  },
-  "contenido_hero": {
-    "titulo": "",
-    "subtitulo": "",
-    "llamada_accion": ""
-  },
-  "secciones": [
-    {"tipo": "about|services|testimonials|contact", "titulo": "", "contenido": ""}
-  ],
-  "contacto": {
-    "telefono": "",
-    "email": "",
-    "direccion": "",
-    "redes_sociales": ""
-  },
-  "elementos_clave": [
-    "certificacion1", "logro1", "diferenciador1"
-  ]
-}
+Organiza y presenta absolutamente TODO lo que encuentres de manera clara y estructurada:
 
-REGLAS:
-- Solo información verificable del texto
-- Descripciones máximo 150 caracteres
-- Colores en formato hex (#000000)
-- Si no encuentras algo, deja ""
-- Máximo 5 servicios principales
-- Máximo 3 secciones adicionales
+- Información de la empresa/organización/persona
+- Servicios, productos, ofertas
+- Historia, misión, valores, filosofía
+- Logros, certificaciones, reconocimientos
+- Testimonios, reseñas, casos de éxito
+- Información de contacto completa
+- Ubicaciones, horarios, disponibilidad
+- Precios, tarifas, planes
+- Procesos, metodologías, enfoques
+- Equipo, personal, especialistas
+- Galería, proyectos, portfolio
+- Políticas, términos, condiciones
+- Cualquier dato adicional relevante
 
-RESPONDE SOLO CON EL JSON, SIN EXPLICACIONES.
+NO resumas ni omitas información. El objetivo es tener un documento completo con todos los detalles para posteriormente generar un portal web profesional.
+
+Presenta la información de forma organizada pero incluye TODOS los detalles disponibles.
