@@ -1,135 +1,31 @@
-ESTRUCTURADOR JSON PARA PORTAL WEB - GEMINI
+GENERADOR DE PLANTILLA HTML PARA PORTAL WEB - GEMINI
 
-Toma la información completa extraída previamente y conviértela en el formato JSON específico para el sistema generador de portales web.
+Toma la información completa extraída previamente y conviértela directamente en una plantilla HTML completa y funcional.
 
-Usa esta estructura base y complétala con la información disponible:
+GENERA UN ARCHIVO HTML COMPLETO con:
 
-{
-  "metadata": {
-    "title": "",
-    "description": "",
-    "keywords": "",
-    "author": "",
-    "language": "es"
-  },
-  "design": {
-    "typography": {
-      "primaryFont": "Inter",
-      "secondaryFont": "Inter",
-      "fontSizes": {
-        "mobile": {"h1": "2rem", "h2": "1.75rem", "h3": "1.5rem", "body": "1rem"},
-        "tablet": {"h1": "2.5rem", "h2": "2rem", "h3": "1.75rem", "body": "1rem"},
-        "desktop": {"h1": "3rem", "h2": "2.5rem", "h3": "2rem", "body": "1.125rem"}
-      }
-    },
-    "colors": {
-      "primary": "#2563eb",
-      "secondary": "#10b981",
-      "accent": "#f59e0b",
-      "neutral": "#6b7280",
-      "background": "#ffffff",
-      "surface": "#f8fafc"
-    },
-    "spacing": {
-      "xs": "0.5rem", "sm": "1rem", "md": "1.5rem", 
-      "lg": "2rem", "xl": "3rem", "xxl": "4rem"
-    }
-  },
-  "layout": {
-    "container": {"maxWidth": "1200px", "padding": "1rem"},
-    "grid": {"mobile": 1, "tablet": 2, "desktop": 3}
-  },
-  "components": {
-    "header": {
-      "logo": {"text": "", "type": "text"},
-      "navigation": [
-        {"label": "Inicio", "href": "#hero"},
-        {"label": "Servicios", "href": "#services"},
-        {"label": "Nosotros", "href": "#about"},
-        {"label": "Contacto", "href": "#contact"}
-      ],
-      "cta": {"text": "Contáctanos", "href": "#contact"}
-    },
-    "hero": {
-      "title": "",
-      "subtitle": "",
-      "description": "",
-      "background": {"type": "gradient", "value": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)"},
-      "ctas": [
-        {"text": "", "href": "#contact", "variant": "primary"},
-        {"text": "", "href": "#services", "variant": "secondary"}
-      ]
-    },
-    "sections": [
-      {
-        "id": "about",
-        "type": "content",
-        "title": "",
-        "description": "",
-        "layout": "text-image",
-        "content": {
-          "text": "",
-          "features": []
-        }
-      },
-      {
-        "id": "services",
-        "type": "cards",
-        "title": "",
-        "description": "",
-        "items": []
-      },
-      {
-        "id": "testimonials",
-        "type": "testimonials",
-        "title": "",
-        "items": []
-      },
-      {
-        "id": "contact",
-        "type": "contact",
-        "title": "",
-        "description": "",
-        "form": {
-          "fields": [
-            {"type": "text", "name": "name", "label": "Nombre", "required": true},
-            {"type": "email", "name": "email", "label": "Email", "required": true},
-            {"type": "tel", "name": "phone", "label": "Teléfono", "required": false},
-            {"type": "textarea", "name": "message", "label": "Mensaje", "required": true}
-          ]
-        },
-        "info": {
-          "address": "",
-          "phone": "",
-          "email": "",
-          "hours": ""
-        }
-      }
-    ],
-    "footer": {
-      "columns": [
-        {
-          "title": "",
-          "links": []
-        }
-      ],
-      "social": [],
-      "copyright": ""
-    }
-  },
-  "features": {
-    "seo": true,
-    "accessibility": true,
-    "responsive": true,
-    "performance": true
-  }
-}
+1. **Estructura HTML5 semántica**
+2. **CSS integrado** con diseño responsive mobile-first
+3. **JavaScript básico** para interactividad
+4. **Bootstrap 5** para componentes
+5. **Font Awesome** para iconos
+
+INCLUYE ESTAS SECCIONES BÁSICAS:
+- Header con navegación
+- Hero section con título principal
+- Sección "Acerca de" 
+- Sección de servicios/productos
+- Testimonios (si hay información)
+- Formulario de contacto
+- Footer
 
 INSTRUCCIONES:
-- Mapea la información extraída a los campos correspondientes
-- Mantén los colores y tipografía por defecto si no tienes información específica
-- Si falta información para alguna sección, déjala con estructura mínima
-- Adapta las secciones según el tipo de negocio/industria
-- Asegúrate de que el JSON sea válido y completo
+- Usa TODA la información extraída para poblar el contenido
+- Aplica colores apropiados para la industria
+- Diseño responsive que se vea bien en móvil, tablet y desktop
+- Incluye CDNs de Bootstrap y Font Awesome
+- Código limpio y bien estructurado
+- Si falta información, usa placeholders apropiados
+- Optimiza para SEO con meta tags apropiados
 
-RESPONDE SOLO CON EL JSON COMPLETO.
+RESPONDE SOLO CON EL CÓDIGO HTML COMPLETO LISTO PARA GUARDAR Y VISUALIZAR.

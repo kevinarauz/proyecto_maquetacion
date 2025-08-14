@@ -202,22 +202,13 @@ Espaciado: letter-spacing para títulos
 <!-- Skip links para navegación por teclado -->
 ```
 
-### 10. Estructura de Archivos
+### 10. Archivo Único HTML
 
-```
-portal/
-├── index.html                 # Página principal
-├── assets/
-│   ├── css/
-│   │   ├── main.css          # Estilos principales
-│   │   ├── components.css    # Componentes reutilizables
-│   │   └── responsive.css    # Media queries
-│   ├── js/
-│   │   ├── main.js          # JavaScript principal
-│   │   └── components.js    # Módulos específicos
-│   └── images/              # Imágenes optimizadas
-└── pages/                   # Páginas adicionales si aplica
-```
+**IMPORTANTE**: Genera UN SOLO ARCHIVO `index.html` con TODO integrado:
+- CSS completo en etiquetas `<style>` dentro del `<head>`
+- JavaScript completo en etiquetas `<script>` antes de cerrar `</body>`
+- Todos los componentes en el mismo HTML
+- Sin archivos externos excepto CDNs de Bootstrap y Font Awesome
 
 ## Instrucciones de Implementación
 
@@ -289,15 +280,22 @@ portal/
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=[FUENTE_PRIMARIA]:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/main.css">
+    
+    <!-- CSS INTEGRADO -->
+    <style>
+        /* Todo el CSS personalizado aquí */
+    </style>
 </head>
 <body>
-    <!-- Contenido generado según especificaciones JSON -->
+    <!-- Todo el contenido HTML aquí -->
     
-    <!-- Scripts -->
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    
+    <!-- JAVASCRIPT INTEGRADO -->
+    <script>
+        // Todo el JavaScript personalizado aquí
+    </script>
 </body>
 </html>
 ```

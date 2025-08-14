@@ -1,45 +1,28 @@
 # Guía de Uso - Generador de Portales Web
 
-## Cómo Usar el Sistema
+## Flujo de Trabajo Completo
 
-### 1. Configuración del JSON
+### Proceso en 2 Etapas
 
-Edita el archivo `portal-specifications.json` según tus necesidades:
+#### **Etapa 1: Extracción con NotebookLLM**
+1. Sube tu fuente de información (PDF, docs, web, etc.) a NotebookLLM
+2. Usa el prompt: `notebook-llm-extraction-prompt.txt`
+3. NotebookLLM te dará TODA la información extraída
 
-#### Metadata
-```json
-"metadata": {
-  "title": "Tu Portal Web",
-  "description": "Descripción de tu portal",
-  "language": "es",
-  "keywords": ["palabra1", "palabra2"],
-  "author": "Tu Nombre"
-}
-```
+#### **Etapa 2: Generación con Gemini**
+1. Copia la información extraída de NotebookLLM
+2. Usa el prompt: `json-structure-prompt.txt` (genera HTML directo)
+3. O usa: `universal-portal-prompt.md` (sistema completo)
+4. Gemini te genera un archivo `index.html` completo listo para usar
 
-#### Colores y Tipografía
-- **Colors**: Modifica la paleta de colores en hexadecimal
-- **Typography**: Especifica fuentes de Google Fonts o web-safe
-- **Spacing**: Ajusta los espacios según tu diseño
+### Resultado Final
 
-#### Secciones
-- **Header**: Logo, navegación, botón CTA
-- **Hero**: Título, subtítulo, botones de acción
-- **Services**: Cards de servicios con iconos
-- **About**: Información sobre la empresa
-- **Testimonials**: Reviews de clientes
-- **Contact**: Formulario e información de contacto
-- **Footer**: Enlaces, contacto, redes sociales
-
-### 2. Uso del Prompt
-
-Copia el contenido de `portal-generator-prompt.md` y úsalo con cualquier IA junto con tu JSON personalizado:
-
-```
-[PROMPT COMPLETO] + 
-
-"Genera un portal web usando estas especificaciones JSON: [TU_JSON_PERSONALIZADO]"
-```
+**UN SOLO ARCHIVO**: `index.html` con:
+- ✅ CSS integrado en `<style>`
+- ✅ JavaScript integrado en `<script>`
+- ✅ Bootstrap 5 y Font Awesome desde CDN
+- ✅ Diseño responsive mobile-first
+- ✅ Listo para visualizar directamente
 
 ### 3. Personalización Rápida
 
