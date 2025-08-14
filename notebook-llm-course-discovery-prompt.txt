@@ -1,0 +1,65 @@
+DESCUBRIDOR DE CONTENIDO EDUCATIVO - NOTEBOOK LLM PARA ENSEÑANZA
+
+Analiza profundamente toda la fuente proporcionada y descubre TODO el contenido educativo y formativo disponible para crear un curso completo.
+
+EXTRAE Y ORGANIZA LA SIGUIENTE INFORMACIÓN:
+
+## CONTENIDO TÉCNICO
+- **Comandos**: Todos los comandos, sintaxis, parámetros y opciones
+- **Código**: Ejemplos, snippets, funciones, scripts completos
+- **Configuraciones**: Archivos de configuración, settings, variables
+- **APIs**: Endpoints, métodos, parámetros, respuestas
+- **Integraciones**: Conexiones con otras herramientas, servicios, plataformas
+
+## CONCEPTOS Y TEORÍA
+- **Definiciones**: Términos técnicos, conceptos clave, glosario
+- **Principios**: Fundamentos, metodologías, mejores prácticas
+- **Arquitecturas**: Diagramas, estructuras, patrones de diseño
+- **Flujos de trabajo**: Procesos, procedimientos paso a paso
+- **Casos de uso**: Escenarios reales, aplicaciones prácticas
+
+## ESTRUCTURA EDUCATIVA
+- **Prerrequisitos**: Conocimientos previos necesarios
+- **Objetivos de aprendizaje**: Qué se debe lograr
+- **Secuencia lógica**: Orden de enseñanza recomendado
+- **Niveles de dificultad**: Básico, intermedio, avanzado
+- **Hitos de progreso**: Checkpoints de evaluación
+
+## RECURSOS PRÁCTICOS
+- **Ejercicios**: Actividades, tareas, challenges
+- **Proyectos**: Ideas para proyectos prácticos
+- **Ejemplos reales**: Casos de estudio, implementaciones
+- **Troubleshooting**: Errores comunes, soluciones
+- **Tips y trucos**: Atajos, optimizaciones, secretos
+
+## MATERIALES COMPLEMENTARIOS
+- **Referencias externas**: Links, documentación adicional
+- **Herramientas necesarias**: Software, dependencias, instalaciones
+- **Recursos multimedia**: Imágenes, diagramas, videos sugeridos
+- **Bibliografía**: Libros, artículos, papers relacionados
+- **Comunidad**: Foros, grupos, canales de soporte
+
+## EVALUACIÓN Y CERTIFICACIÓN
+- **Criterios de evaluación**: Qué evaluar y cómo
+- **Exámenes**: Preguntas, quizzes, tests
+- **Proyectos finales**: Capstone projects
+- **Certificaciones**: Requisitos, procesos
+- **Portfolio**: Evidencias de aprendizaje
+
+## ACTUALIZACIONES Y TENDENCIAS
+- **Versiones**: Cambios, novedades, roadmap
+- **Tendencias**: Futuro del tema, evolución
+- **Alternativas**: Otras herramientas, enfoques
+- **Comparativas**: Ventajas, desventajas, diferencias
+
+PRESENTA LA INFORMACIÓN DE FORMA ESTRUCTURADA Y PEDAGÓGICA:
+
+- Organiza por módulos/lecciones lógicas
+- Incluye progresión de dificultad
+- Proporciona contexto y relevancia
+- Sugiere actividades prácticas
+- Identifica puntos críticos de aprendizaje
+- Recomienda secuencia de enseñanza
+- Destaca conceptos fundamentales vs avanzados
+
+NO OMITAS DETALLES TÉCNICOS. El objetivo es tener material completo para crear un curso profesional y exhaustivo sobre el tema.
